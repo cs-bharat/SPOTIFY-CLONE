@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CDN means content delivery network -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar  bg-body-tertiary navbar-expand-lg fixed-top">
+        <!-- /navbar me =fixed-top se nav fix ho jata he scroll karne se vo uper ki side me dikhai deta he -->
+        <!-- navbar ke uper ke content ko dikhane ke liye (sticky-top) used -->
+        <div class="container-fluid">
+        <a href="#" class="navbar-brand">Brand Name</a>
+        <!-- ham button design -->
+        <button class="navbar-toggler"
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+         <div class="navbar-nav">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#">Blog</a>
+        </div>
+        </div>
+        <!-- search bar  -->
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </div>
+    </nav>
+    <!-- bootstrap is a powerful , feature-packed frontend toolkit. 
+      build anything-from prototype to production-in minutes. -->
+      <div class="container-sm">
+        <!-- bootstarp used ke liye keval class deni padti he tag me (bootstrap liberey ) -->
+        <!-- componets=button,alert,badge,button-group , navbar,card etc -->
+      <h1>Bootstrap demo</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi fugiat minus nemo expedita sunt asperiores ducimus sint quos tempore, magnam voluptates nulla quibusdam exercitationem! Inventore aliquam enim ea nostrum vel! Officiis odit delectus molestias ea blanditiis ullam id omnis, distinctio commodi, atque veniam voluptates pariatur rem quisquam cum? Natus perferendis a, ea fuga iste obcaecati quod quos quibusdam eveniet, sint nemo ipsam sequi magnam! Ipsa culpa qui nemo vel amet at neque reiciendis excepturi aliquam illo? Ipsa nisi illum quisquam reiciendis nihil magnam, explicabo odio dolore eveniet asperiores mollitia est corporis aliquam corrupti blanditiis suscipit minima quasi facere alias distinctio earum dignissimos. Nemo repellat quidem debitis sequi quas fugiat perferendis ipsum quam dolorum recusandae, voluptas iste vero ipsam assumenda id inventore quasi ad consequuntur tenetur autem vel facilis molestiae. Ipsa, voluptatibus, eos quibusdam laboriosam optio enim in accusamus incidunt fugit nihil hic facere eum asperiores cupiditate dolore obcaecati animi magnam atque nobis et laborum quas quos. Perspiciatis modi ex possimus quasi voluptatibus suscipit, eligendi tempora veritatis aut laborum quisquam cupiditate cumque. Sunt cum iste et, vitae molestias obcaecati perferendis laudantium laboriosam veritatis aut at quibusdam minima nihil hic assumenda explicabo quia deleniti eius natus, iusto eveniet? Aut consectetur impedit amet, nihil sed unde, mollitia doloremque deserunt voluptate perferendis ab nulla iste. Sit illo nihil totam, deserunt dignissimos tenetur debitis corrupti aliquam obcaecati? Doloribus placeat ullam magni totam. Praesentium, cum impedit aspernatur maiores optio dolorum consequuntur blanditiis laborum quos natus libero, quaerat rem sapiente nam enim itaque eos? Totam consequatur dolore sit quas enim esse cum, officia quaerat, officiis recusandae similique reiciendis provident eaque omnis. Sit veniam similique sunt, aut commodi tenetur autem numquam animi id quam molestiae quas incidunt aliquam ullam molestias vel doloribus mollitia unde! Vel, reiciendis tenetur laudantium minus labore adipisci eos molestiae excepturi maiores illo! Incidunt, numquam.</p>
+      <button type="butoon" class="btn btn-outline-primary btn-lg">primary</button>
+      <button type="butoon" class="btn btn-info">info</button>
+      <button type="butoon" class="btn btn-outline-success">success</button>
+      <button type="butoon" class="btn btn-danger">click me</button>
+      <button type="butoon" class="btn btn-outline-warning">warning</button>
+      <button type="butoon" class="btn btn-dark">click me</button>
+      <!-- disabled class name in button used -->
+      <button type="butoon" class="btn btn-dark" disabled>disabled</button>
+      <hr>
+      <!-- badge components -->
+      <h1>Notifications <span class="badge bg-primary">20+</span></h1>
+      <button class="btn btn-primary">
+        followers <span class="badge bg-secondary">100+</span>
+      </button>
+      <hr>
+      <div class="alert alert-danger">
+        Dawnlode fail! please try again.
+      </div>
+      <div class="alert alert-success">
+        congradulation your gate rank all india is 3000
+      </div>
+      <!-- used = alert-dismissible and (javasc. = data-bs-dismiss) -->
+      <div class="alert alert-warning alert-dismissible " role="alert">
+       Please update your system.
+       <button class="btn-close " data-bs-dismiss="alert"></button>
+      </div>
+      <hr>
+      <div class="alert alert-primary d-flex align-items-center" role="alert">
+        <div>
+          An example alert with an icon
+        </div>
+      </div>
+      <hr>
+      <h1>button groups create</h1>
+      <!-- some as = checkbox radio button and more class are used .. -->
+      <div class="btn-group">
+       <button class="btn btn-primary">one</button>
+       <button class="btn btn-outline-success">two</button>
+       <button class="btn btn-warning">three</button>
+       <button class="btn btn-outline-danger">four</button>
+      </div>
+      <div class="btn-group" >
+        <button type="button" class="btn btn-outline-primary">Left</button>
+        <button type="button" class="btn btn-outline-primary">Middle</button>
+        <button type="button" class="btn btn-outline-primary">Right</button>
+      </div>
+      <hr>
+
+      <div>
+      <button type="button" class="btn btn-success dropdown-toggle"        data-bs-toggle="dropdown" aria-expanded="false">
+         Dropdown
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item">Dropdown link</a></li>
+        <li><a class="dropdown-item">Dropdown link</a></li>
+      </ul>
+      <hr>
+      <div class="card" style="width: 18rem;">
+        <img src="photo (1).jpg" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Photograpy</h5>
+          <p class="card-text">it is an art of capture imortant images!</p>
+          <a href="#" class="btn btn-primary">know more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
