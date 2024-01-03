@@ -120,6 +120,46 @@ body{
     text-align: center;
 
 }
+.stikey-nav-bar{
+    display: flex;
+    background-color: #121212;
+    position: sticky;
+    top:0;
+    justify-content: space-between;
+    padding: 1rem 0 1rem 0;
+}
+.badge-nav-iterm{
+    border-radius: 2rem;
+    border: 2px solid black;
+    font-size: 1rem;
+    
+}
+.nav-item{
+    margin: 1rem;   
+}
+.left-icons{
+  display: flex;
+  height: 2rem;
+  width: 2rem;
+  top: 0;
+  padding: 0.75rem;
+
+}
+.badge-nav-iterm{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.dark-badge{
+    background-color: black;
+    color: #fff;
+}
+.iconss{
+  font-size: 1.5rem;
+}
+@media (max-width:1000px) {
+    .hide{
+        display: none;
+    }
+}
 .music-player{
     background-color: green;
     position: fixed;
